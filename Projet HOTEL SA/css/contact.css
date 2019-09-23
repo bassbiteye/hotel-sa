@@ -1,0 +1,107 @@
+
+.heading{
+  margin-top: 4em;
+  margin-left: 88px;
+}
+@media all and (max-width:1024px)
+{
+    body{
+       
+        width: auto;
+        
+    }
+ 
+}
+.h2{
+  font-family: 'Courier New', Courier, monospace;
+}
+/* Set the size of the div element that contains the map */
+  #map {
+    height: 500px;  /* The height is 400 pixels */
+    width: 400px;  /* The width is the width of the web page */
+   }
+#contact-form
+{   
+
+  
+    font-size: 20px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    margin: left;
+}
+/*---  NEW  ------*/
+.blue
+{
+    color: #0069d6;
+}
+.form-control
+{
+    height: 30px;
+    font-size: 18px;
+}
+#contact-form input[type=submit]
+{
+    margin: 40px auto 0px;
+    display: block;
+}
+
+
+.button1
+{
+    border: 1px solid #ddd;
+    background: #0069d6;
+    color: #fff;
+    width: 100%;        
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+.button1:hover
+{
+    background: #333;
+    border-color: #ffa500;
+}
+
+
+
+/* form */
+span{
+    width: 50px;
+    height: 200px;
+}
+
+.form-block{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    background: #ddd;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+   height: 600px;
+}
+.form-block h5{
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.form-block .fas{
+    font-size: 35px;
+}
+.form-block h3{
+     color: #d82c2e;
+}
+.form-block h4{
+   margin-bottom: 20px;
+}
+.form-block p{
+  font-weight: bold;
+}
+.form-block .red-divider{
+    margin-bottom: 20px;
+}
+
